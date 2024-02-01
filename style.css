@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0d1117;
+    font-family: "Open Sans", sans-serif;
+}
+
+.Navibar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(207, 233, 254, 0.17);
+    margin: 1.5em;
+    padding: 0 1em 0 1em;
+    border-radius: 10px;
+}
+
+.leftnav img {
+
+    width: 130px;
+    height: 60px;
+}
+
+.rightnav {
+    display: flex;
+    gap: 1.5em;
+}
+
+.rightnav li {
+
+    list-style: none;
+}
+
+.rightnav a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+/* navigation bar ends hear*/
+
+.hpart1 {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+
+.hpart1left {
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4em;
+    gap: 2em;
+}
+
+.hpart1left h1 {
+
+    font-size: 60px;
+}
+
+.hpart1left p {
+
+    font-size: 20px;
+    color: #8b949E;
+}
+
+.hpart2right {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftimg img {
+
+    margin: 3em;
+}
